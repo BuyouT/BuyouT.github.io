@@ -39,18 +39,28 @@
 
 /* Global */
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1em;
   /*color: #8a8683;*/
-  background-color:#ffffff;
+  background-color:black;
 }
 img {
   max-width: 100%;
 }
+
+.container-fluid {
+  background-color: black; 
+}
+
 .fa:link, a:link, .fa:visited, a:visited {
-  color: #f68f67;
+  color: #1B7E10;
   text-decoration: none;
 }
 .fa:hover, a:hover {
@@ -235,7 +245,7 @@ ul {
 }
 
 /* Mobile */
-@media screen and (max-width: 640px) {
+/*@media screen and (max-width: 640px) {
 
   #contact .grid_4.omega {
     margin: 0 2% 5% 0;
@@ -265,6 +275,6 @@ ul {
   #contact h1,
   #contact h2 {
     line-height: 1em;
-  }
+  }*/
 
 }

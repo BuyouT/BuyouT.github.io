@@ -172,7 +172,7 @@ ul {
   font-size: 3.8em;
   letter-spacing: -3px;
   line-height: 0px;
-  color: crimson;
+  color: #FF8C00;
   font-weight: 700;
 }
 
@@ -186,7 +186,7 @@ ul {
 /* BreakOut slide */
 
 #BO {
-  background-color: orange;
+  background-color: violet;
 }
 
 /* Pong slide */
@@ -198,7 +198,7 @@ ul {
 /*ReliOx*/
 
 #ReliOx {
-  background-color: violet;
+  background-color: goldenrod;
 }
 
 /* Contact */

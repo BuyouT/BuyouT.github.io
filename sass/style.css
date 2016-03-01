@@ -54,9 +54,9 @@ img {
   max-width: 100%;
 }
 
-.container-fluid {
-  background-color: black; 
-}
+/*.container {
+  background-color: black;
+}*/
 
 .fa:link, .fa:visited {
   color: #FD6804;

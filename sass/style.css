@@ -1,5 +1,5 @@
-@import "_normalize.css";
-/*@import "_grid.css";*/
+@import url("_grid.css");
+@import url("_normailize.css");
 
 
 @mixin slide($name, $bgcolor, $textcolor, $linkcolor) {

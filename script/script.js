@@ -12,3 +12,22 @@ $(function() {
     }
   });
 });
+
+function updateAge() {
+  var age = 0;
+  var today = new Date();
+
+  var myDate=new Date();
+  myDate.setFullYear(1992,1,9); /* My birthday is January 9th */
+
+  var y = (today - myDate);
+
+  var days =  ( y / (1000*60*60*24));
+
+  var x= Math.floor(days/365.25);
+
+  var age = age +x;
+
+  document.write(age);
+}
+

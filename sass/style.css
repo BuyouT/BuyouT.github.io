@@ -1,5 +1,5 @@
-@import 'base/_normalize.css';
-@import 'base/_grid.css';
+@import '../sass/base/_normalize.css';
+@import '../sass/base/_grid.css';
 
 
 @mixin slide($name, $bgcolor, $textcolor, $linkcolor) {

@@ -4,8 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Stefano Reyna</title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="script/script.js"></script> 
     <link rel="stylesheet" href="sass/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -16,14 +14,22 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
        <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#herenav" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand">Stefano Reyna</a>
-              <p class="navbar-text navbar-right"><a href="#contact" class="navbar-link">Contact</a></p>
-              <p class="navbar-text navbar-right"><a href="#projects" class="navbar-link">Projects</a></p>
-              <p class="navbar-text navbar-right"><a href="#aboutme" class="navbar-link">About Me</a></p>
             </div>
+            <div class="collapse navbar-collapse" id="herenav">
+                <ul class="nav navbar-nav">
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- hamburger button is being a piece of shit -->
         </div> 
     </div>
     
@@ -137,6 +143,8 @@
     	<h4>© Stefano Reyna, 2016</h4>
     </div>
 </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script/script.js"></script> 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js"></script>
 <script>jQuery(document).ready(function ($) {$(window).stellar();});</script>

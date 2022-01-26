@@ -14,7 +14,7 @@ $(function() {
 });
 
 function updateAge() {
-  var age = 0;
+  var age = 1;
   var today = new Date();
 
   var myDate=new Date();
@@ -26,7 +26,7 @@ function updateAge() {
 
   var x= Math.floor(days/365.25);
 
-  var age = age +x;
+  var age = age + x;
 
   document.write(age);
 }
